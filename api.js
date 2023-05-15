@@ -17,10 +17,10 @@ app.use((req, res, next) => {
 
 // Database configuration
 const config = {
-  user: 'Egg12',
-  password: 'Gov3nd3r',
-  server: 'buildsentence.database.windows.net',
-  database: 'SentenceBuilder',
+  user: 'YourUsername',
+  password: 'Yourpassword',
+  server: 'Youraddress',
+  database: 'YourDbName',
   options: {
     encrypt: true, // If you're using Azure
     trustServerCertificate: true // If you're using a self-signed certificate
